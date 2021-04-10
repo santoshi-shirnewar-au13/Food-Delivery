@@ -1,0 +1,158 @@
+.nav-item{
+    margin-left: 20px;
+}
+.hero{
+    height: 91.5vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(noodles.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+}
+h2{
+    font-size: 3.5rem;
+    color: #fff;
+}
+p{
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.hero{
+    margin-top: 56px;
+}
+.hero a{
+    outline: none;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 8px 40px;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.hero a:hover{
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    transition: 1s ease;
+}
+.tittle h4{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.tittle h1{
+    margin-top: 20px;
+}
+.box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.collection{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 40px;
+}
+.name{
+    font-size: 2.5rem;
+    /*align-items: center;*/
+    margin-top: 20px;
+    font-weight: bold;
+}
+img{
+    height: 200px;
+    width: 450px;
+    border-radius: 20px;
+
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 180px;
+    margin-top: 40px;
+}
+.left,.right{
+    margin-top: 20px;
+}
+.contact h1{
+    margin-bottom:  20px;
+}
+.contact h1, .contact p{
+    color: #000;
+
+}
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    }
+
+.app p{
+   color: #000;
+   margin-top: 10px;
+
+}
+.share{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.img img{
+    height: auto;
+}
+.radio{
+    margin-top: 150px;
+}
+input[type=radio]{
+    margin: 0 20px;
+}
+label{
+    /*margin-right:  80px;*/
+    font-size: 1.5rem;
+}
+input[type=text],input[type=submit]{
+    
+    margin:20px 10px;
+}
+input[type=text]{
+    outline: none;
+    /*border: none;*/
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    margin-top: 20px;
+   text-align: center;
+   padding-top: 20px;
+}
+.footer h1{
+    color: #fff;
+    font-size: 1.3rem;
+}
+.fourth{
+    line-height: 0px;
+    padding-bottom: 20px;
+}
+.footer i{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.footer a{
+    color: #fff;
+}
